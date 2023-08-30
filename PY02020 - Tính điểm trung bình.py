@@ -14,7 +14,7 @@ for i in range(1, len(a)):
 
 for i in range(1, len(a)):
     if a[len(a) - i] != a[len(a) - i - 1]:
-        r = len(a) - 1
+        r = len(a) - i
         break
     
 sum = 0
